@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist-node",
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "types": ["node"],
+    "allowJs": false
+  },
+  "include": ["vite.config.ts"],
+  "exclude": ["node_modules"]
+}

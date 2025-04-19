@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM", "WebWorker"], // Added "WebWorker" for PWA context
+    "skipLibCheck": true,
+    "types": ["vite/client", "node", "web"], // Added "web" to include @types/web
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowJs": false
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "env.d.ts"], // Added "env.d.ts" for better environment variable support
+  "exclude": ["node_modules", "dist", "dist-node"],
+  "references": [
+    { "path": "./tsconfig.node.json" }
+  ]
+}
