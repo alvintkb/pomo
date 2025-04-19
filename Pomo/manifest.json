@@ -1,19 +1,19 @@
 {
-    "name": "Pomodoro Focus",
-    "short_name": "Pomodoro",
+    "name": "pomodoro Focus",
+    "short_name": "pomodoro",
     "description": "Manage your time",
-    "start_url": "/Pomo/",
+    "start_url": "/pomo/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#1976d2",
     "icons": [
       {
-        "src": "/Pomo/icons/icon-192x192.png",
+        "src": "/pomo/icons/icon-192x192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "/Pomo/icons/icon-512x512.png",
+        "src": "/pomo/icons/icon-512x512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
